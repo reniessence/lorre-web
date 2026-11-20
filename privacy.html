@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>lorre — privacy policy</title>
+<meta name="description" content="how lorre handles your diary, your notes, and the AI that writes your zine.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>privacy policy</h1>
+<p class="sub">for the lorre iPhone app · last updated november 20, 2026</p>
+
+<div class="card"><p>the short version: your diary stays on your iPhone. there is no account, no ads, and no tracking. when you ask lorre to write an issue, a small slice of your diary goes to an AI to write it.</p></div>
+
+<h2>what stays on your iPhone</h2>
+<p>your stitches, notes, ratings, moods, 5 favorites, settings, and every lorre you make are stored on your device. we never receive a copy. if you delete the app or use settings → delete all data, they are gone.</p>
+
+<h2>what leaves your iPhone</h2>
+<p><strong>when you drop a lorre.</strong> lorre sends the stitches from that issue's period (up to 20), including titles, creators, ratings, mood chips, and your written notes, plus your 5 favorite titles and a few counts. your name, email, photos, and contacts are never sent. this goes to lorre's own server, which asks an AI service to write the issue.</p>
+<p><strong>AI services.</strong> the server uses Google Gemini first. if that is unavailable, it may use Cloudflare Workers AI or Anthropic Claude. each only processes your request to write your issue under its own API terms. on supported iPhones, lorre may write the issue on your device with Apple Intelligence instead, and then nothing leaves your phone.</p>
+<p><strong>searching for titles.</strong> when you search, the words you type are sent to a catalog. film and TV go through lorre's server to TMDB. books go to Open Library. music goes to MusicBrainz and Cover Art Archive. these services can see your IP address and your search.</p>
+<p><strong>keeping the service fair.</strong> to stop abuse, lorre makes a random install ID on your phone and may send an Apple DeviceCheck token. the server keeps only request counts for that ID, and they expire within a day or so. the ID is not linked to your name or your diary.</p>
+
+<h2>what we do not do</h2>
+<ul>
+<li>no accounts, logins, or email collection</li>
+<li>no advertising, analytics, or tracking across apps or sites</li>
+<li>no selling or sharing your data</li>
+<li>no storing your stitches or notes on our server after an issue is written</li>
+</ul>
+
+<h2>notifications</h2>
+<p>reminders are scheduled on your iPhone. they do not use a push server. you can turn them off in settings or in iOS settings.</p>
+
+<h2>your choices</h2>
+<ul>
+<li><strong>export:</strong> settings → export saves all your data as a JSON file.</li>
+<li><strong>delete:</strong> settings → delete all data erases everything on your device.</li>
+<li><strong>skip AI:</strong> you can keep logging and never drop a lorre. nothing is sent until you do.</li>
+</ul>
+
+<h2>children</h2>
+<p>lorre is not made for children under 13 and does not knowingly collect information from them.</p>
+
+<h2>changes</h2>
+<p>if this policy changes, the date at the top changes and the new version is posted here.</p>
+
+<h2>contact</h2>
+<p>questions? open an issue on <a href="https://github.com/reniessence/lorre-web/issues">github</a>.</p>
+
+<nav><a href="index.html">support</a><a href="privacy.html">privacy policy</a></nav>
+</main>
+</body>
+</html>

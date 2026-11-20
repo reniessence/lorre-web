@@ -1,0 +1,15 @@
+:root{--paper:#F4EFE6;--ink:#1A1917;--ink-soft:rgba(26,25,23,.72);--rule:rgba(26,25,23,.18);--coral:#C8553D;--card:#FBF8F2}
+@media (prefers-color-scheme:dark){:root{--paper:#161616;--ink:#EDE8DF;--ink-soft:rgba(237,232,223,.72);--rule:rgba(237,232,223,.2);--coral:#E07A62;--card:#1E1E1E}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,"Inter","Helvetica Neue",Arial,sans-serif}
+main{max-width:640px;margin:0 auto;padding:40px 20px 72px}
+h1{font:400 44px/1.1 "Caprasimo",Georgia,serif;margin:0 0 6px}
+h2{font:400 24px/1.2 "Caprasimo",Georgia,serif;margin:36px 0 8px}
+p,li{color:var(--ink-soft)}
+li{margin:6px 0}
+a{color:var(--coral)}
+.sub{font-size:15px;color:var(--ink-soft);margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:16px 18px;margin:20px 0}
+.card p{margin:0;color:var(--ink)}
+nav{margin-top:48px;border-top:1px solid var(--rule);padding-top:16px;font-size:15px}
+nav a{margin-right:16px}
